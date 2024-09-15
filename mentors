@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html class="gradient">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+  <body class="gradient">
+  <a href='index.html'>
+  <img src = "image(1)(1).png" height="80px">
+  </a>
+
+    <!-- nav bar -->
+    <nav>
+      <ul>
+        <li><div class="dropdown">
+              <a href="explore.html">Главная</a>
+              <div class="dropdown-content">
+                <a href="resources.html">Ресурсы</a>
+                <a href="mentors.html">Менторы</a>
+              </div>
+            </div></li>
+        <li>
+
+          <a href = "mission.html">Наша миссия</a></li>
+        <li><a href = "contribute.html">Хочу помочь</a></li>
+        <li><a href = "study-space.html">Мой профиль</a></li>
+      </ul>
+    </nav>
+
+
+
+<br>
+<p class="missionStatement">
+  <b>Менторы</b>
+  <br>
+  <br>
+  Посмотрите на наших менторов!</p>
+  
+  
+
+<body>
+<div class="photocard">
+<div class="card">
+  <img class="avatar" src="https://static.vecteezy.com/system/resources/previews/014/194/232/original/avatar-icon-human-a-person-s-badge-social-media-profile-symbol-the-symbol-of-a-person-vector.jpg" alt="Avatar" style="width:30%">
+  <div class="container">
+    <h4><b>Имя Фамилия</b></h4>
+    <p>example@gmail.com</p>
+   <P> студент Назарбаевского университета <p>
+    <p> Сколько часов готов волонтерить: 4.5/7</p>
+    <button>СВЯЗАТЬСЯ</button>
+    
+  </div>
+
+<div class="card2">
+  <img class="avatar2" SRC="https://cdn4.vectorstock.com/i/1000x1000/32/23/user-sign-icon-person-symbol-human-avatar-vector-12693223.jpg" alt="Avatar" style="width:30%">
+   <div class="container2">
+    <h4><b>Имя Фамилия</b></h4>
+    <p>example@gmail.com</p>
+   <P> Старшеклассница в 89 лицее <p>
+    <p> Сколько часов готова волонтерить: 3/7</p>
+    <button> СВЯЗАТЬСЯ</button>
+   </div>
+<div class="card3">
+  <img class="avatar3" SRC="https://static.vecteezy.com/system/resources/previews/014/194/215/original/avatar-icon-human-a-person-s-badge-social-media-profile-symbol-the-symbol-of-a-person-vector.jpg" alt="Avatar" style="width:30%">
+   <div class="container3">
+    <h4><b>Имя Фамилия</b></h4>
+    <p>example@mail.com</p>
+   <P> второкурсница в Айту <p>
+    <p> Сколько часов готова волонтерить: 4/7</p>
+    <button> СВЯЗАТЬСЯ</button>
+  </div>
+   </div>
+</div>
+
+
+
+
+  
+<style>
+  
+  
+  .card {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.avatar {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.container h4 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #777;
+  text-align: center;
+}
+
+.container p:first-child {
+  margin-top: 0;
+}
+
+.container p:last-child {
+  margin-bottom: 20px;
+}
+
+.container p:nth-child(3) {
+  color: #555;
+  font-style: italic;
+}
+
+.container p:nth-child(4) {
+  font-weight: bold;
+}
+
+.container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  margin-bottom: 20px;
+  margin-left: 500px;
+}
+
+.card:last-child {
+  margin-bottom: 0;
+}
+
+  .card2 {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  margin-right: 20px; /* Add some spacing between the cards */
+}
+
+.card2:last-child {
+  margin-right: 0; /* Remove the margin for the last card */
+}
+
+.avatar2 {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.container2 {
+  padding: 20px;
+}
+
+.container2 h4 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container2 p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #777;
+  text-align: center;
+}
+
+.container2 p:first-child {
+  margin-top: 0;
+}
+
+.container2 p:last-child {
+  margin-bottom: 0;
+}
+
+.container2 p:nth-child(3) {
+  color: #555;
+  font-style: italic;
+}
+
+.container2 p:nth-child(4) {
+  font-weight: bold;
+}
+
+.container2 button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container2 button:hover {
+  background-color: #0056b3;
+}
+
+.card3 {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  margin-right: 20px; 
+}
+
+.card3:last-child {
+  margin-right: 0; /* Remove the margin for the last card */
+}
+
+.avatar3 {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.container3 {
+  padding: 20px;
+}
+
+.container3 h4 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container3 p {
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #777;
+  text-align: center;
+}
+
+.container3 p:first-child {
+  margin-top: 0;
+}
+
+.container3 p:last-child {
+  margin-bottom: 0;
+}
+
+.container3 p:nth-child(3) {
+  color: #555;
+  font-style: italic;
+}
+
+.container3 p:nth-child(4) {
+  font-weight: bold;
+}
+
+.container3 button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.container3 button:hover {
+  background-color: #0056b3;
+}
+
+.photocard{
+  display: inline-flex;
+  margin-left: 16%;
+}
+
+</style>
+  <footer>Skill-tea © 2024. <br>
+  Website Designed by Deliya</footer>
+  
+</html>
