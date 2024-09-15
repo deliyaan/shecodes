@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html class="exploreback">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&amp;display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+<body>
+  
+  <a href='index.html'>
+  <nav>
+  <img class = "logo" src = "image(1)(1).png" height="80px">
+  </a>
+  
+<!-- nav bar -->
+<nav>
+  <ul>
+    <li><div class="dropdown">
+          <a href="explore.html">Главная</a>
+          <div class="dropdown-content">
+            <a href="resources.html">Ресурсы</a>
+            <a href="mentors.html">Менторы</a>
+          </div>
+        </div></li>
+    <li>
+      
+      <a href = "mission.html">Наша миссия</a></li>
+    <li><a href = "contribute.html">Хочу помочь</a></li>
+    <li><a href = "study-space.html">Мой профиль</a></li>
+  </ul>
+</nav>
+
+<br>
+<p class="missionStatement">
+  <b>Добро пожаловать в Skill-tea!</b>
+  <br>
+  <br>
+Наша платформа представляет собой цифровое пространство, объединяющее социально активных людей — волонтеров, зооактивистов, экоактивистов и других энтузиастов. Мы предлагаем уникальную возможность для взаимодействия с университетами и образовательными учреждениями, чтобы реализовывать совместные проекты и мероприятия. Платформа охватывает различные направления социальной активности, включая поиск хозяев для домашних питомцев, организацию книжных клубов, проведение добровольных эко-субботников, поиск менторов и организацию добровольной психологической помощи.
+    <br>
+    <br>
+Мы стремимся устранить разрыв в доступе к образованию и вдохновить новое поколение на непрерывное обучение и активное участие в жизни общества. Наше видение — создать сообщество, где каждый имеет возможность внести свой вклад и сделать мир лучше.</p>
+
+<center><h1 class="textinexplore">Навигация по сайту</h1></center>
+
+ <div class="quickLinks">
+ 
+  <br><br>
+<div class="linkRow">
+      <div class="linkBox">
+        <a href="index.html"><img src="https://wallpaper.dog/large/17167935.gif"></a>
+      <p class = "textingif">ГЛАВНАЯ</p>
+      </div>
+
+  
+      <div class="linkBox">
+        <a href="explore.html"><img src="https://i.pinimg.com/originals/0d/32/cb/0d32cbaa959e755ac8eef610f01ba0bd.gif"></a>
+      <p class = "textingif">ПРОЕКТЫ</p>
+      </div>
+
+  
+    </div>
+<div class="linkRow">
+      <div class="linkBox">
+        <a href="resources.html"><img src="https://i.pinimg.com/originals/b3/9c/0c/b39c0c466fa2e880bcf8b904305041aa.gif" ></a>
+     <p class = "textingif">РЕСУРСЫ</p>
+      </div>
+
+  
+      <div class="linkBox">
+        <a href="mentors.html"><img src="https://33.media.tumblr.com/dabf5d59ea1b2f7eff3ad88912eb664d/tumblr_njqh718pgB1ssqsazo1_1280.gif"></a>
+      <p class = "textingif">НАШИ МЕНТОРЫ</p>
+      </div>
+    </div>
+    <div class="linkRow">
+      <div class="linkBox">
+        <a href="mission.html"><img src="https://i.gifer.com/fyMN.gif"></a>
+      <p class = "textingif">НАША МИССИЯ</p>
+      </div>
+
+      
+      <div class="linkBox">
+        <a href="contribute.html"><img src="https://media.tenor.com/kJTlDmZnS8EAAAAC/sunsets-aesthetic.gif"></a>
+      <p class = "textingif">СДЕЛАЙ СВОЙ ВКЛАД</p>
+      </div>
+
+      
+    </div>
+<div class="linkRow">
+      <div class="linkBox">
+        <a href="MENTOR.html"><img src="https://i.pinimg.com/originals/0c/a0/dd/0ca0ddd9bf8dfee8a2c26227bf21f6b8.gif"target = "_blank"></a>
+<p class = "textingif">СТАТЬ МЕНТОРОМ</p>
+      </div>
+      <div class="linkBox">
+        <a href="SIGN ME .html"><img src="https://i.gifer.com/embedded/download/TBOc.gif"></a>
+      <p class = "textingif">ЗАРЕГИСТРИРОВАТЬСЯ</p>
+      </div>
+    </div>
+   
+   <div class="linkRow">
+      <div class="linkBox">
+        <a href="study-space.html"><img src="https://i.pinimg.com/originals/f7/44/06/f744060231b6aaecd96b158c50b35a84.gif"></a>
+<p class = "textingif">ПРОФИЛЬ</p>
+      </div>
+      
+    </div>
+  </div>
+
+  <style>
+
+            .slider {
+                margin-left: 26%;
+                position: relative;
+                width: 900px;
+                height: 500px;
+                overflow: hidden;
+            }
+
+            .slides {
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+                width: 100%;
+            }
+
+            .slides img {
+                width: 900px;
+                height: 500px;
+                object-fit: cover;
+            }
+
+            .arrow {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 30px;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.5);
+                border: none;
+                cursor: pointer;
+                padding: 10px;
+                z-index: 100;
+            }
+
+            .arrow-left {
+                left: 0;
+            }
+
+            .arrow-right {
+                right: 0;
+            }
+
+    .partners-section {
+        text-align: center;
+        padding: 50px 0;
+        
+      
+    }
+
+    .partners-section h2 {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+
+    .logos-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .logos-grid img {
+        width: 150px;
+        height: auto;
+        object-fit: contain;
+        transition: transform 0.3s ease;
+    }
+
+    .logos-grid img:hover {
+        transform: scale(1.1);
+    }
+
+    .odd-row {
+        margin-left: 80px; /* Для шахматного порядка */
+    }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="slider">
+            <button class="arrow arrow-left" onclick="prevSlide()">&#10094;</button>
+            <div class="slides" id="slides">
+                <img src="https://ivan-company.kz/wp-content/uploads/2019/08/maxresdefault-1024x576.jpg" alt="Slide 1">
+                <img src="https://i.ytimg.com/vi/B8-qITIKyK8/maxresdefault.jpg" alt="Slide 2">
+                <img src="https://tengrinews.kz/userdata/news/2017/news_322258/thumb_m/photo_220595.jpg" alt="Slide 3">
+            </div>
+            <button class="arrow arrow-right" onclick="nextSlide()">&#10095;</button>
+        </div>
+
+
+      <section class="partners-section">
+          <h2>Наши партнёры</h2>
+          <div class="logos-grid">
+              <!-- Первый ряд -->
+              <img src="https://old.nu.edu.kz/wp-content/uploads/2016/09/NU-logo.png" alt="Partner 1">
+              <img src="https://static.tildacdn.com/tild3764-6633-4663-b138-303730646233/aitu-logo__2.png" alt="Partner 2">
+              <img src="https://upload.wikimedia.org/wikipedia/ru/9/94/Nov-logo-eng.png" alt="Partner 3">
+              <img src="https://static.tildacdn.com/tild6465-3661-4562-a430-623161396133/Guidebook_KAZGUU_Uni.png" alt="Partner 4">
+              
+              
+              </div>
+          </div>
+      </section>
+
+
+
+
+      
+        <script>
+            let currentIndex = 0;
+
+            function showSlide(index) {
+                const slides = document.getElementById('slides');
+                const totalSlides = slides.children.length;
+                currentIndex = (index + totalSlides) % totalSlides; // Для зацикливания
+                const offset = -currentIndex * 900; // 900px — это ширина изображения
+                slides.style.transform = `translateX(${offset}px)`;
+            }
+
+            function prevSlide() {
+                showSlide(currentIndex - 1);
+            }
+
+            function nextSlide() {
+                showSlide(currentIndex + 1);
+            }
+        </script>
+
+
+
+
+
+  
+<footer>Skill-tea © 2024. <br>
+Website Designed by Deliya</footer>
+  
+<style>
+
+  .textingif {
+  font-family: Montserrat, arial;
+  color: white;
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  bottom: 100px;
+  z-index:-1;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+  
+</style>
+  
+  
+<link href="https://fonts.google.com/specimen/Jacques+Francois?query=Jacques+Francois">
+
+
+</body>
+
+</html>
