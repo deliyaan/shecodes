@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html class="gradient">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  <body class="gradient">
+  <a href='index.html'>
+  <img src = "image(1)(1).png" height="80px">
+  </a>
+    <!-- nav bar -->
+    <nav>
+      <ul>
+        <li><div class="dropdown">
+              <a href="explore.html">Главная</a>
+              <div class="dropdown-content">
+                <a href="resources.html">Ресурсы</a>
+                <a href="mentors.html">Менторы</a>
+              </div>
+            </div></li>
+        <li>
+
+          <a href = "mission.html">Наша миссия</a></li>
+        <li><a href = "contribute.html">Хочу помочь</a></li>
+        <li><a href = "study-space.html">Мой профиль</a></li>
+      </ul>
+    </nav>
+
+
+<p class="missionStatement">
+  <b>Это наша страница регистрации!</b>
+  <br>
+  <br>
+  Чтобы вернуться на главную страницу, нажмите на изображение в левом верхнем углу.</p>
+<br>
+  <div class="mentor">
+    <h2>Регистрация</h2>
+    <form>
+      <div class="form-group-2">
+        <label for="name">Имя:</label>
+        <input type="text" id="name-2" name="name" placeholder="Введите свое имя">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email-2" name="email" placeholder="Введите адрес электронной почты">
+      </div>
+      <div class="form-group"> 
+        <label for="date"> Дата рождения: </label>
+        <input type="date" id="date-2" name="date of birth" placeholder="Введите дату рождения">
+      </div>
+      
+      <div class="form-group">
+        <label type="text"> Интересующий предмет/отрасль: </label>
+        <input type="text" id="text-2" name="text" placeholder="Введите здесь">
+
+   <div class="form-range">
+  <label for="range">Сколько часов вы можете волонтерить?:</label>
+  <input type="range" id="range" name="range" min="1" max="5" step="1" value="0" list="range-values">
+  <datalist id="range-values">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </datalist>
+</div>
+
+      <div class="form-group">
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+</body>
+
+<style>/* Style for the mentor form */
+
+.mentor {
+  
+  max-width: 400px;
+  margin: 20px auto;
+  margin-left: 450px auto;
+  padding: 50px;
+  background-color: #83fbd1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mentor h2 {
+  margin-top: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form-group-2,
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group-2 label,
+.form-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-group-2 input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="date"],
+.form-group input[type="text"],
+.form-range input[type="range"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group-2 input[type="text"]::placeholder,
+.form-group input[type="email"]::placeholder,
+.form-group input[type="date"]::placeholder,
+.form-group input[type="text"]::placeholder {
+  color: #999;
+}
+
+.form-range {
+  margin-bottom: 30px;
+}
+
+.form-range label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-range input[type="range"] {
+  width: 100%;
+}
+
+.form-group input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+</style>
+
+  <footer>Skill-tea © 2024. <br>
+  Website Designed by Deliya</footer>
+
+<script src="./script.js"></script>
+
+
+  <script> src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</html> 
