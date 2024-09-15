@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html class="exploreback">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <a href='index.html'>
+  <img src = "image(1)(1).png" height="80px">
+  </a>
+
+
+  <!-- nav bar -->
+  <nav>
+    <ul>
+      <li><div class="dropdown">
+            <a href="explore.html">Главная</a>
+            <div class="dropdown-content">
+              <a href="resources.html">Ресурсы</a>
+              <a href="mentors.html">Менторы</a>
+            </div>
+          </div></li>
+      <li>
+
+        <a href = "mission.html">Наша миссия</a></li>
+      <li><a href = "contribute.html">Хочу помочь</a></li>
+      <li><a href = "study-space.html">Мой профиль</a></li>
+    </ul>
+  </nav>
+
+<style>
+  #filters {
+      background-color: #237575;
+      padding: 10px;
+      text-align: center;
+  }
+
+  #filters select {
+      margin: 5px;
+  }
+
+  #club-list {
+      margin: 20px;
+      text-align: center;
+  }
+
+  .club {
+      background-color: #237575;
+      border: 1px solid #ccc;
+      padding: 15px;
+      margin: 10px;
+      display: inline-block;
+      width: 200px;
+  }
+
+  button {
+      background-color: #6ad48d;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+  }
+
+  button:hover {
+      background-color: #58ad75;
+  }
+
+  #upcoming-events {
+      margin: 20px;
+      text-align: center;
+  }
+
+  .event {
+      background-color: #237575;
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px;
+  }
+</style>
+
+
+
+  
+  <header>
+    <h1>Организация книжных клубов</h1>
+    <button onclick="createClub()">Создать книжный клуб</button>
+  </header>
+
+  <section id="filters">
+    <h2>Отсортировать клубы</h2>
+    <label for="city">Город:</label>
+    <select id="city">
+        <option value="all">Все</option>
+        <option value="ny">Астана</option>
+        <option value="la">Алматы</option>
+        <option value="sf">Актау</option>
+    </select>
+
+    <label for="genre">Жанр:</label>
+    <select id="genre">
+        <option value="all">Все жанры</option>
+        <option value="fiction">Научные</option>
+        <option value="non-fiction">Романтика</option>
+        <option value="mystery">Мистика</option>
+        <option value="fantasy">Фантастика</option>
+    </select>
+
+    <button onclick="filterClubs()">Фильтр</button>
+  </section>
+
+  <section id="club-list">
+    <h2>Книжные клубы</h2>
+    <!-- Example Club Cards -->
+    <div class="club">
+        <h3>Астанинские любители романтики</h3>
+        <p>Город: Астана | Жанр: Романтика</p>
+        <button onclick="viewClub(1)">Подробнее</button>
+    </div>
+    <div class="club">
+        <h3>Алматинские мистические истории</h3>
+        <p>Город: Алматы | Жанр: Мистика</p>
+        <button onclick="viewClub(2)">Подробнее</button>
+    </div>
+  </section>
+
+  <section id="upcoming-events">
+    <h2>Ближайшие события</h2>
+    <div class="event">
+        <h4>Астанинские любители романтики - 20 сент, 2024</h4>
+        <p>Обсуждение: "Гордость и предубеждение"</p>
+        <button onclick="registerEvent(1)">Зарегистрироваться</button>
+    </div>
+    <div class="event">
+        <h4>Алматинские мистические истории - 5 окт, 2024</h4>
+        <p>Дискуссия: "Сияние"</p>
+        <button onclick="registerEvent(2)">Зарегистрироваться</button>
+    </div>
+  </section>
+
+<script>
+  function registerEvent(eventId) {
+      alert(`Вы зарегистрированы на событие: ${eventId}`);
+  }
+
+
+</script>
+
+
+
+
+  <footer>Skill-tea © 2024. <br>
+  Website Designed by Deliya</footer>
+
+<link href="https://fonts.google.com/specimen/Jacques+Francois?query=Jacques+Francois">
+</body>
+
+</html>
