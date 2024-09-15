@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="gradient">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  <body class="gradient">
+  <a href='index.html'>
+  <img src = "image(1)(1).png" height="80px">
+  </a>
+  
+    <!-- nav bar -->
+    <nav>
+      <ul>
+        <li><div class="dropdown">
+              <a href="explore.html">Главная</a>
+              <div class="dropdown-content">
+                <a href="resources.html">Ресурсы</a>
+                <a href="mentors.html">Менторы</a>
+              </div>
+            </div></li>
+        <li>
+
+          <a href = "mission.html">Наша миссия</a></li>
+        <li><a href = "contribute.html">Хочу помочь</a></li>
+        <li><a href = "study-space.html">Мой профиль</a></li>
+      </ul>
+    </nav>
+
+
+<p class="missionStatement">
+  <b>Это наша страница регистрации!</b>
+  <br>
+  <br>
+Чтобы вернуться на главную страницу, нажмите на изображение в верхнем левом углу.</p>
+
+  <div class="sign-me">
+    <h2>Заполните анкету</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">ФИО:</label>
+        <input type="text" id="name" name="name" placeholder="Введите ваше ФИО">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Введите ваш email">
+      </div>
+      <div class="form-group"> 
+        <label for="date"> Дата рождения: </label>
+        <input type="date" id="date" name="date of birth" placeholder="Введите вашу дату рождения">
+      </div>
+      <div class="form-group">
+        <label type="number"> В каком вы классе? </label>
+        <input type="number" id="number" name="number" placeholder="Введите ваш класс"> </div>
+      <div class="form-group">
+        <label type="text">Ваши увлечения/любимые предметы: </label>
+        <input type="text" id="text" name="text" placeholder="Введите ваши увлечения">
+        
+      <div class="form-group">
+        <input type="submit" value="submit" class="submit">
+      </div>
+    </form>
+  </div>
+    <footer>Skill-tea © 2024. <br>
+Website Designed by Deliya</footer>
+</body>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</html>
+
+ 
