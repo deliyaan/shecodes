@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="exploreback">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <a href='index.html'>
+  <img src = "image(1)(1).png" height="80px">
+  </a>
+
+
+  <!-- nav bar -->
+  <nav>
+    <ul>
+      <li><div class="dropdown">
+            <a href="explore.html">Главная</a>
+            <div class="dropdown-content">
+              <a href="resources.html">Ресурсы</a>
+              <a href="mentors.html">Менторы</a>
+            </div>
+          </div></li>
+      <li>
+
+        <a href = "mission.html">Наша миссия</a></li>
+      <li><a href = "contribute.html">Хочу помочь</a></li>
+      <li><a href = "study-space.html">Мой профиль</a></li>
+    </ul>
+  </nav>
+<style>
+    #create-event-form {
+        background-color: #237575;
+        margin: 20px auto;
+        padding: 20px;
+        width: 50%;
+        border: 1px solid #c8e6c9;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #create-event-form label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    #create-event-form input, #create-event-form select, #create-event-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    button {
+        background-color: #6ad48d;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    button:hover {
+        background-color: #479661;
+    }
+
+ 
+
+</style>
+
+    <header>
+        <h1>Создать новый субботник</h1>
+    </header>
+
+    <section id="create-event-form">
+        <h2>Информация о событии</h2>
+        <form id="ecoEventForm">
+            <label for="event-name">Название субботника:</label>
+            <input type="text" id="event-name" name="event-name" required>
+
+            <label for="city">Город:</label>
+            <select id="city" name="city" required>
+                <option value="ny">Астана</option>
+                <option value="la">Алматы</option>
+                <option value="sf">Актобе</option>
+            </select>
+
+            <label for="date">Дата:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Время:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="workType">Тип работы:</label>
+            <select id="workType" name="workType" required>
+                <option value="cleanup">Уборка</option>
+                <option value="tree-planting">Посадка деревьев</option>
+                <option value="both">Оба варианта</option>
+            </select>
+
+            <label for="location">Локация (Адрес):</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="equipment">Необходимые принадлежности:</label>
+            <input type="text" id="equipment" name="equipment" placeholder="Перчатки, пакеты для мусора и т.д.">
+
+            <label for="description">Описание:</label>
+            <textarea id="description" name="description" rows="5" placeholder="Опишите детали субботника" required></textarea>
+
+            <button type="submit">Создать</button>
+        </form>
+    </section>
+
+  <footer>Skill-tea © 2024. <br>
+  Website Designed by Deliya</footer>
+
+<link href="https://fonts.google.com/specimen/Jacques+Francois?query=Jacques+Francois">
+</body>
+
+</html>
