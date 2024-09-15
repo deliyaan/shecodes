@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html class="exploreback">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <a href='index.html'>
+  <img src = "image(1)(1).png" height="80px">
+  </a>
+
+
+  <!-- nav bar -->
+  <nav>
+    <ul>
+      <li><div class="dropdown">
+            <a href="explore.html">Главная</a>
+            <div class="dropdown-content">
+              <a href="resources.html">Ресурсы</a>
+              <a href="mentors.html">Менторы</a>
+            </div>
+          </div></li>
+      <li>
+
+        <a href = "mission.html">Наша миссия</a></li>
+      <li><a href = "contribute.html">Хочу помочь</a></li>
+      <li><a href = "study-space.html">Мой профиль</a></li>
+    </ul>
+  </nav>
+<style>
+  #filters {
+      background-color: #237575;
+      padding: 15px;
+      text-align: center;
+  }
+
+  #filters select, #filters input {
+      margin: 10px;
+  }
+
+  #event-list {
+      margin: 20px;
+      text-align: center;
+  }
+
+  .event {
+      background-color: #237575;
+      border: 1px solid #c8e6c9;
+      padding: 15px;
+      margin: 10px;
+      display: inline-block;
+      width: 200px;
+  }
+
+  button {
+      background-color: #6ad48d;
+      color: white;
+      padding: 10px;
+      border: none;
+      cursor: pointer;
+  }
+
+  button:hover {
+      background-color: #479661;
+  }
+
+
+</style>
+
+  <header>
+    <h1>Эко-субботники</h1>
+    <button><a href="createeco.html">Создать субботник</button></a>
+  </header>
+
+  <section id="filters">
+    <h2>Отсортировать события</h2>
+    <label for="city">Город:</label>
+    <select id="city">
+        <option value="all">Все</option>
+        <option value="ny">Астана</option>
+        <option value="la">Алматы</option>
+        <option value="sf">Актобе</option>
+    </select>
+
+    <label for="date">Дата:</label>
+    <input type="date" id="date">
+
+    <label for="workType">Тип работы:</label>
+    <select id="workType">
+        <option value="all">Все</option>
+        <option value="cleanup">Уборка</option>
+        <option value="tree-planting">Посадка деревьев</option>
+    </select>
+
+    <button onclick="filterEvents()">Фильтр</button>
+  </section>
+
+  <section id="event-list">
+    <h2>Предстоящие субботники</h2>
+    <!-- Example Event Cards -->
+    <div class="event">
+        <h3>Уборка в Центральном Парке</h3>
+        <p>Дата: 25 сент, 2024 | Город: Астана | Тип: Уборка</p>
+        <button onclick="viewEvent(1)">Подробнее</button>
+    </div>
+    <div class="event">
+        <h3>Посадка деревьев в парке Горького</h3>
+        <p>Дата: 10 окт, 2024 | Город: Алматы | Тип: Посадка деревьев</p>
+        <button onclick="viewEvent(2)">Подробнее</button>
+    </div>
+  </section>
+
+
+
+
+
+  <footer>Skill-tea © 2024. <br>
+  Website Designed by Deliya</footer>
+
+<link href="https://fonts.google.com/specimen/Jacques+Francois?query=Jacques+Francois">
+</body>
+
+</html>
