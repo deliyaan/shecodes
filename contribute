@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="gradient">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="gradient">
+  <a href='index.html'>
+  <img src = "image(1)(1).png" height="80px">
+  </a>
+
+
+  <!-- nav bar -->
+  <nav>
+    <ul>
+      <li><div class="dropdown">
+            <a href="explore.html">Главная</a>
+            <div class="dropdown-content">
+              <a href="resources.html">Ресурсы</a>
+              <a href="mentors.html">Менторы</a>
+            </div>
+          </div></li>
+      <li>
+
+        <a href = "mission.html">Наша миссия</a></li>
+      <li><a href = "contribute.html">Хочу помочь</a></li>
+      <li><a href = "study-space.html">Мой профиль</a></li>
+    </ul>
+  </nav>
+
+
+<br>
+<p class="missionStatement">
+  <b>Сделайте свой вклад и помогите проекту!</b>
+</p>
+
+  <a class="gogform" href="SIGN ME .html">Стать частью проекта</a>
+ <a class="gogform" href="MENTOR.html">Стать ментором</a>
+
+
+<h1>Q/A section</h1>
+<details>
+  <summary>Как я могу стать ментором?</summary>
+  <div>
+    <p class='text_in_accordion'><b>Нажми на кнопку "Стать ментором" выше!</b></p>
+  </div>
+</details>
+
+<details>
+  <summary>Как университет может предложить сотрудничество?</summary>
+  <div>
+    <p class='text_in_accordion'><b>Пожалуйста свяжитесь с нами по электронной почте: example@skilltea.kz</b></p>
+  </div>
+</details>
+
+<details>
+  <summary>Как я могу поддержать проект?</summary>
+  <div>
+    <p class='text_in_accordion'><b>Вот наши реквизиты, огромное спасибо! Мы будем и дальше стараться для вас!*реквизиты*</b></p>
+  </div>
+</details>
+
+
+  <footer>Skill-tea © 2024. <br>
+  Website Designed by Deliya</footer>
+
+<link href="https://fonts.google.com/specimen/Jacques+Francois?query=Jacques+Francois">
+</body>
+
+</html>
