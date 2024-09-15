@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html class="exploreback">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <a href='index.html'>
+  <img src = "image(1)(1).png" height="80px">
+  </a>
+
+
+  <!-- nav bar -->
+  <nav>
+    <ul>
+      <li><div class="dropdown">
+            <a href="explore.html">Главная</a>
+            <div class="dropdown-content">
+              <a href="resources.html">Ресурсы</a>
+              <a href="mentors.html">Менторы</a>
+            </div>
+          </div></li>
+      <li>
+
+        <a href = "mission.html">Наша миссия</a></li>
+      <li><a href = "contribute.html">Хочу помочь</a></li>
+      <li><a href = "study-space.html">Мой профиль</a></li>
+    </ul>
+  </nav>
+  <style>
+  
+
+      .container {
+          width: 90%;
+          max-width: 800px;
+          margin: 20px auto;
+          background-color: white;
+          padding: 20px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          border-radius: 8px;
+      }
+
+      h2 {
+          text-align: center;
+          color: #333;
+      }
+
+      form {
+          display: flex;
+          flex-direction: column;
+      }
+
+      label {
+          margin-top: 10px;
+          font-weight: bold;
+      }
+
+      input, select, textarea {
+          padding: 8px;
+          margin-top: 5px;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          box-sizing: border-box;
+      }
+
+      input[type="file"] {
+          padding: 3px;
+      }
+
+      button {
+          margin-top: 20px;
+          padding: 10px;
+          background-color: #549bb0;
+          color: white;
+          border: none;
+          cursor: pointer;
+          border-radius: 4px;
+          font-size: 16px;
+      }
+
+      button:hover {
+          background-color: #407585;
+      }
+
+      .back-link {
+          display: inline-block;
+          margin-top: 20px;
+          text-decoration: none;
+          color: #549bb0;
+          font-weight: bold;
+      }
+
+  </style>
+
+  <header>
+    <h1>Поиск хозяев для домашних животных</h1>
+  </header>
+
+  <div class="container">
+
+    <h2>Разместить объявление</h2>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <label for="animal-name">Имя животного</label>
+        <input type="text" id="animal-name" name="animal-name" required>
+
+        <label for="animal-type">Вид животного</label>
+        <select id="animal-type" name="animal-type" required>
+            <option value="">Выберите вид</option>
+            <option value="Кошка">Кошка</option>
+            <option value="Собака">Собака</option>
+            <option value="Птица">Птица</option>
+            <option value="Грызун">Грызун</option>
+        </select>
+
+        <label for="age">Возраст</label>
+        <select id="age" name="age" required>
+            <option value="">Выберите возраст</option>
+            <option value="Щенок/Котёнок">Щенок/Котёнок</option>
+            <option value="Взрослый">Взрослый</option>
+            <option value="Пожилой">Пожилой</option>
+        </select>
+
+        <label for="location">Местоположение</label>
+        <select id="location" name="location" required>
+            <option value="">Выберите местоположение</option>
+            <option value="Москва">Астана</option>
+            <option value="Санкт-Петербург">Алматы</option>
+            <option value="Новосибирск">Караганда</option>
+            <option value="Екатеринбург">Шымкент</option>
+        </select>
+
+        <label for="description">Описание</label>
+        <textarea id="description" name="description" rows="5" required></textarea>
+
+        <label for="photo">Фото животного</label>
+        <input type="file" id="photo" name="photo" accept="image/*" required>
+
+        <button type="submit">Разместить объявление</button>
+    </form>
+
+    <a href="project1.html" class="back-link">&larr; Вернуться к списку животных</a>
+
+  </div>
+
+
+
+
+  <footer>Skill-tea © 2024. <br>
+  Website Designed by Deliya</footer>
+
+<link href="https://fonts.google.com/specimen/Jacques+Francois?query=Jacques+Francois">
+</body>
+
+</html>
