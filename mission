@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html class="gradient">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  <body class="gradient">
+  <a href='index.html'>
+  <img src = "image(1)(1).png" height="80px">
+  </a>
+
+
+    <!-- nav bar -->
+    <nav>
+      <ul>
+        <li><div class="dropdown">
+              <a href="explore.html">Главная</a>
+              <div class="dropdown-content">
+                <a href="resources.html">Ресурсы</a>
+                <a href="mentors.html">Менторы</a>
+              </div>
+            </div></li>
+        <li>
+
+          <a href = "mission.html">Наша миссия</a></li>
+        <li><a href = "contribute.html">Хочу помочь</a></li>
+        <li><a href = "study-space.html">Мой профиль</a></li>
+      </ul>
+    </nav>
+
+<br>
+<p class="missionStatement">
+  <b>Наша миссия</b>
+  <br>
+  <br>
+  Мы создаем платформу для объединения социально активных людей и образовательных учреждений, чтобы совместно реализовывать проекты и мероприятия. Наша цель — поддерживать инициативы по поиску хозяев для домашних питомцев, организацию книжных клубов, проведение эко-субботников, поиск менторов и предоставление психологической помощи. <br><br>
+Для большей информации посетите <a id="missionLink" href="contribute.html"> эту </a> страницу!</p>
+<br>
+  <br>
+  <br>
+
+
+<div class="tea2">
+ <h1 class="teafont">skill-tea!</h1> 
+</div> 
+
+
+    <footer>Skill-tea © 2024. <br>
+    Website Designed by Deliya</footer>
+<link href="https://fonts.google.com/specimen/Jacques+Francois?query=Jacques+Francois">
+</body>
+
+</html>
