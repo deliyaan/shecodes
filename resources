@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  <body>
+  <a href='index.html'>
+  <img src = "image(1)(1).png" height="80px">
+  </a>
+
+    <!-- nav bar -->
+    <nav>
+      <ul>
+        <li><div class="dropdown">
+              <a href="explore.html">Главная</a>
+              <div class="dropdown-content">
+                <a href="resources.html">Ресурсы</a>
+                <a href="mentors.html">Менторы</a>
+              </div>
+            </div></li>
+        <li>
+
+          <a href = "mission.html">Наша миссия</a></li>
+        <li><a href = "contribute.html">Хочу помочь</a></li>
+        <li><a href = "study-space.html">Мой профиль</a></li>
+      </ul>
+    </nav>
+<body>
+<br>
+<p class="missionStatement">
+  <b>Ресурсы</b>
+  <br>
+  <br>
+  нужны ресурсы? нажмите, чтобы перейти в любой раздел!
+  <br> 
+  <br>
+  <a class="jumplink" href="#div_id1">• Программирование</a>
+  <br>
+  <a class="jumplink" href="#div_id2">• Языки</a>
+  <br>
+  <a class="jumplink" href="#div_id3">• Наука</a>
+</p>
+
+<br>
+  <br>
+  <br>
+
+  <div class="resources1" id="div_id1"> 
+  <h1> Программирование</h1> 
+  </div>
+  
+  <div class="resources2">  
+    <img class="logo-img" src="code.png" alt="code"><a target="_blank" href="https://code.org/" class="headindev">Code</a><a target="_blank" href='https://code.org/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Некомерческая организация, обучающая программированию и информатике с помощью всесторонней, бесплатной и широко используемой платформы, которая прошла множество проверок. Её применяют более миллиона преподавателей по всему миру, и она отличается отличным дизайном и высоким уровнем вовлеченности.</p> 
+  <br>
+  <br>
+  <br>
+  <img class="logo-img" src="odin.png" alt="odin"><a target="_blank" href="https://www.theodinproject.com/" class="headindev">The Odin Project</a><a target="_blank" href='https://www.theodinproject.com/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Открытый онлайн-курс для изучения веб-разработки. Этот проект создан для того, чтобы помочь тем, кто пытается освоить навыки самостоятельно, но при этом хочет получать качественное образование.</p> 
+<br>
+  <br>
+  <br>
+  <img class="logo-img" src="code_academy.png" alt="code_academy"><a target="_blank" href="https://www.codecademy.com/" class="headindev">Codecademy</a><a target="_blank" href='https://www.codecademy.com/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Codecademy — это онлайн-интерактивная платформа, предлагающая бесплатные курсы по программированию на 12 различных языках, включая Python, Java, JavaScript, Ruby, SQL, C++, Swift и Sass, а также языки разметки HTML и CSS.</p> 
+<br>
+  <br>
+  <br>
+  <img class="logo-img" src="khan.png" alt="khan_academy"><a target="_blank" href="https://www.khanacademy.org/computing/" class="headindev">
+Khan Programming</a><a target="_blank" href='https://www.khanacademy.org/computing/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Серия курсов с простыми для понимания вводными руководствами по таким темам, как веб-программирование, анимация и разработка игр, информатика и многое другое.</p> 
+<br>
+  <br>
+  <br>
+  <img class="logo-img" src="edx.png" alt="edx"><a target="_blank" href="https://www.edx.org/course/subject/computer-science" class="headindev">
+edX Computer Science</a><a target="_blank" href='https://www.edx.org/course/subject/computer-science'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Это главная страница на платформе edX по информатике, включающая бесплатные курсы от таких организаций, как Гарвард и Microsoft, охватывающие темы от фронтенд-разработки до блокчейна и кибербезопасности.</p> 
+
+  </div>
+
+
+
+  
+ <div class="resources3" id="div_id2"> 
+  <h1> Языки</h1> 
+  </div>
+  
+  <div class="resources4">  
+    <img class="logo-img" src="duolingo.png" alt="duolingo"><a target="_blank" href="https://www.duolingo.com/" class="headindev">Duolingo</a><a target="_blank" href='https://www.duolingo.com/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Игровое интерактивное обучение языкам через веб-сайт и мобильное приложение. Платформа тщательно и красиво спроектирована, предлагая всестороннее покрытие многих языков. Более 300 миллионов активных пользователей.</p> 
+  <br>
+  <br>
+  <br>
+  <img class="logo-img" src="memrise.png" alt="memrise"><a target="_blank" href="https://www.memrise.com/" class="headindev">Memrise</a><a target="_blank" href='https://www.memrise.com/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Memrise — это приложение для изучения языков с элементами геймификации и чистым, интуитивно понятным интерфейсом. Основанное в 2010 году, оно помогло более чем 40 миллионам человек в 189 странах освоить новые языки.</p> 
+<br>
+  <br>
+  <br>
+  <img class="logo-img" src="busuu.png" alt="busuu"><a target="_blank" href="https://www.busuu.com/en/" class="headindev">Busuu</a><a target="_blank" href='https://www.busuu.com/en/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Busuu — это прекрасно спроектированная платформа для изучения языков, использующая искусственный интеллект и доступная на веб-сайте, iOS и Android. Она позволяет пользователям взаимодействовать с носителями языков со всего мира. В данный момент предлагаются курсы по 12 языкам: английскому, испанскому, французскому, немецкому, итальянскому, португальскому, китайскому, японскому, польскому, турецкому, русскому и арабскому.</p> 
+<br>
+  <br>
+  <br>
+  <img class="logo-img" src="googletranslate.png" alt="googletranslate"><a target="_blank" href="https://translate.google.com/" class="headindev">Google Translate</a><a target="_blank" href='https://translate.google.com/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Google Translate сочетает традиционные методы перевода с мощными алгоритмами искусственного интеллекта. Менее известная, но очень полезная функция (особенно при путешествиях) — возможность перевода живого текста с помощью камеры вашего смартфона, что позволяет, например, читать иностранное меню.</p> 
+<br>
+  <br>
+  <br>
+  <img class="logo-img" src="forvo.png" alt="forvo"><a target="_blank" href="https://forvo.com/" class="headindev">
+Forvo</a><a target="_blank" href='https://forvo.com/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Forvo — это сайт, который предоставляет доступ к звуковым клипам с произношением на различных языках, помогая в изучении языков.</p> 
+
+  </div>
+
+
+  
+<div class="resources5" id="div_id3"> 
+  <h1> Наука</h1> 
+  </div>
+  
+  <div class="resources6">  
+    <img class="logo-img" src="ted.png" alt="ted"><a target="_blank" href="https://www.ted.com/" class="headindev">TED-Ed</a><a target="_blank" href='https://www.ted.com/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>TED-Ed — это образовательная инициатива, которая усиливает идеи через короткие анимационные видео и уроки. Она охватывает широкий спектр тем, пробуждая любопытство и вовлекая обучающихся по всему миру. TED-Ed предоставляет возможность исследовать, учиться и делиться знаниями в инновационном и увлекательном формате.</p> 
+  <br>
+  <br>
+  <br>
+  <img class="logo-img" src="ned.jpg" alt="ned"><a target="_blank" href="http://www.nationalgeographic.org/education" class="headindev">National Geographic Education</a><a target="_blank" href='http://www.nationalgeographic.org/education'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Предлагает образовательные ресурсы, статьи и интерактивные задания по географии, истории и культуре.</p> 
+<br>
+  <br>
+  <br>
+  <img class="logo-img" src="waitbutwhy.png" alt="wbw"><a target="_blank" href="https://waitbutwhy.com/" class="headindev">Wait But Why</a><a target="_blank" href='https://waitbutwhy.com/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Один из самых поразительных сайтов, которые вы когда-либо читали, охватывающий темы от искусственного суперразума до подсчета оставшихся вам недель жизни. Автор пишет удивительно увлекательно и доступно, превращая сложные концепции в ясные объяснения. Его безудержное любопытство становится заразительным и интеллектуально вдохновляющим.</p> 
+<br>
+  <br>
+  <br>
+  <img class="logo-img" src="big-think.png" alt="bigthink"><a target="_blank" href="https://bigthink.com/" class="headindev">
+Big Think</a><a target="_blank" href='https://bigthink.com/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Этот мультимедийный веб-портал предлагает коллекцию интервью, презентаций и круглых столов с экспертами из различных областей, а также рассылки и подкасты.</p> 
+<br>
+  <br>
+  <br>
+  <img class="logo-img" src="open-culture.png" alt="oc"><a target="_blank" href="http://www.openculture.com/" class="headindev">
+Open Culture</a><a target="_blank" href='http://www.openculture.com/'><img class="link" src = "link.svg" height="40px"></a>
+    <br>
+    <p class="textindev"><b>Информация: </b>Open Culture выделяет лучшие бесплатные культурные и образовательные материалы, доступные в интернете. Мы отбираем аудио и видео, чтобы найти те медиафрагменты, которые делают обучение динамичным, продуктивным и увлекательным.</p> 
+
+  </div>
+  <footer>Skill-tea © 2024. <br>
+  Website Designed by Deliya</footer>
+<style>
+  html, body {
+    background-image: linear-gradient(to bottom, #236175, #ce7d9f);
+  }
+</style>
+
+
+
+<link href="https://fonts.google.com/specimen/Jacques+Francois?query=Jacques+Francois">
+</body>
+
+</html>
