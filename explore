@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="exploreback">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    
+  <a href='index.html'>
+  <img src = "image(1)(1).png" height="80px">
+  </a>
+
+
+  <!-- nav bar -->
+  <nav>
+    <ul>
+      <li><div class="dropdown">
+            <a href="explore.html">Главная</a>
+            <div class="dropdown-content">
+              <a href="resources.html">Ресурсы</a>
+              <a href="mentors.html">Менторы</a>
+            </div>
+          </div></li>
+      <li>
+
+        <a href = "mission.html">Наша миссия</a></li>
+      <li><a href = "contribute.html">Хочу помочь</a></li>
+      <li><a href = "study-space.html">Мой профиль</a></li>
+    </ul>
+  </nav>
+
+<br>
+
+
+<p class="missionStatement">
+  <b>Излучайте свой свет и оказывайте положительное влияние на мир; нет ничего более почетного, чем помогать улучшать жизнь других людей - Рой Т. Беннетт</b>
+</p>
+  
+<div class = "buttons">
+<a class = "resource-button" href = "resources.html"><button>Наши Ресурсы</button></a>
+  <a class = "mentor-button"href = "mentors.html"><button>Наши Менторы</button></a>
+</div>
+
+
+
+<center><h1 class="textinexplore">Открытые проекты!</h1></center>
+
+  
+  <div class="quickLinks">
+  
+  <br><br>
+<div class="linkRow">
+      <div class="linkBox">
+        <a href="project1.html"><img src="https://i.pinimg.com/originals/68/ae/bf/68aebf4c71bd1d6090f87237272b01e5.gif"></a>
+      <p>Поиск хозяев для домашних животных</p>
+      </div>
+
+  
+      <div class="linkBox">
+        <a href="project2.html"><img src="https://i.gifer.com/DU9P.gif"></a>
+      <p>Организация книжного клуба</p>
+      </div>
+
+  
+    </div>
+<div class="linkRow">
+      <div class="linkBox">
+        <a href="project3.html"><img src="https://i.pinimg.com/originals/66/94/11/669411a8a3da9affd30c9f89364918f2.gif" ></a>
+      <p font-size = "10px">Организация эко-субботников</p>
+      </div>
+
+  
+      <div class="linkBox">
+        <a href="https://www.success.com/"><img src="https://i.pinimg.com/originals/16/69/e5/1669e57761ccc67fa5e31a09a54764d0.gif"></a>
+      <p>Бот</p>
+      </div>
+    </div>
+   
+
+    
+  </div>
+  
+  
+<style>
+
+.linkBox:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  padding:10px;
+}
+.div1{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+    margin:10px;
+  }
+  
+  button{
+    margin:20px;
+    background-color: teal;
+    color: yellow;
+    padding:20px;
+    font-size: 17px;
+    border:2px white solid;
+    border-radius: 5px;
+  font-family: "Jacques Francois", monospace;  
+  }
+  button:hover{
+    font-size: 18px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    box-shadow: 3px 4px #66b2b2;
+    text-decoration: underline;
+  }
+  .buttons{
+    margin-left:39%;
+  }
+.linkBox p{
+  font-size: 30px;
+}
+
+</style>
+
+ 
+
+  <footer>Skill-tea © 2024. <br>
+  Website Designed by Deliya</footer>
+  
+<link href="https://fonts.google.com/specimen/Jacques+Francois?query=Jacques+Francois">
+</body>
+
+</html>
